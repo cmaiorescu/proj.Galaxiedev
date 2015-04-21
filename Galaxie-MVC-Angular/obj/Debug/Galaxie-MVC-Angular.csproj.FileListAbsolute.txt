@@ -1,0 +1,261 @@
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.csprojResolveAssemblyReference.cache
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.dll.config
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.pdb
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Antlr3.Runtime.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Microsoft.Web.Infrastructure.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Newtonsoft.Json.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Net.Http.Formatting.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Helpers.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Http.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Http.WebHost.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Mvc.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Optimization.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Razor.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.Deployment.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.Razor.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\WebGrease.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Antlr3.Runtime.pdb
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Optimization.xml
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Razor.xml
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.xml
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.Deployment.xml
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.Razor.xml
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Helpers.xml
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Mvc.xml
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Newtonsoft.Json.xml
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Net.Http.Formatting.xml
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Http.xml
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Http.WebHost.xml
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.dll
+c:\users\sruel\documents\visual studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.pdb
+C:\Users\sruel\Documents\Visual Studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\sruel\Documents\Visual Studio 2013\Projects\Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.csprojResolveAssemblyReference.cache
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.dll.config
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.pdb
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Antlr3.Runtime.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Microsoft.Web.Infrastructure.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Newtonsoft.Json.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Net.Http.Formatting.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Helpers.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Http.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Http.WebHost.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Mvc.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Optimization.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Razor.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.Deployment.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.Razor.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\WebGrease.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Antlr3.Runtime.pdb
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Optimization.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Razor.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.Deployment.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.Razor.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Helpers.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Mvc.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Newtonsoft.Json.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Net.Http.Formatting.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Http.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Http.WebHost.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.pdb
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Flurl.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Flurl.Http.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Json.dll
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Flurl.xml
+C:\GalaxieDev\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Flurl.Http.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.dll.config
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.pdb
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Antlr3.Runtime.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Dapper.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\EntityFramework.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\EntityFramework.SqlServer.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Flurl.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Flurl.Http.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Json.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Microsoft.Web.Infrastructure.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Newtonsoft.Json.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Net.Http.Formatting.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Helpers.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Http.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Http.WebHost.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Mvc.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Optimization.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Razor.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.Deployment.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.Razor.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\WebGrease.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Antlr3.Runtime.pdb
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Dapper.pdb
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Dapper.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\EntityFramework.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\EntityFramework.SqlServer.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Flurl.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Flurl.Http.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\Newtonsoft.Json.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Optimization.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Razor.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.Deployment.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Webpages.Razor.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Helpers.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Mvc.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Net.Http.Formatting.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Http.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\bin\System.Web.Http.WebHost.xml
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.dll
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.pdb
+C:\test2\project.Galaxie-MVC-Angular\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.csprojResolveAssemblyReference.cache
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.dll.config
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.pdb
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Antlr3.Runtime.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Dapper.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\EntityFramework.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\EntityFramework.SqlServer.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Flurl.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Flurl.Http.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Json.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Microsoft.Web.Infrastructure.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Newtonsoft.Json.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Net.Http.Formatting.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Helpers.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Http.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Http.WebHost.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Mvc.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Optimization.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Razor.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Webpages.Deployment.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Webpages.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Webpages.Razor.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\WebGrease.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Antlr3.Runtime.pdb
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Dapper.pdb
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Dapper.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\EntityFramework.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\EntityFramework.SqlServer.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Flurl.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Flurl.Http.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Newtonsoft.Json.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Optimization.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Razor.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Webpages.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Webpages.Deployment.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Webpages.Razor.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Helpers.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Mvc.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Net.Http.Formatting.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Http.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Http.WebHost.xml
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.csprojResolveAssemblyReference.cache
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.dll
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.pdb
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.dll.config
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.pdb
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Antlr3.Runtime.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Dapper.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\EntityFramework.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\EntityFramework.SqlServer.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Flurl.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Flurl.Http.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Json.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Microsoft.Web.Infrastructure.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Newtonsoft.Json.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Net.Http.Formatting.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Helpers.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Http.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Http.WebHost.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Optimization.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Razor.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Webpages.Deployment.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Webpages.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Webpages.Razor.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\WebGrease.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Antlr3.Runtime.pdb
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Dapper.pdb
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Dapper.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\EntityFramework.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\EntityFramework.SqlServer.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Flurl.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Flurl.Http.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Newtonsoft.Json.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Optimization.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Razor.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Webpages.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Webpages.Deployment.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Webpages.Razor.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Helpers.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Net.Http.Formatting.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Http.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\System.Web.Http.WebHost.xml
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.csprojResolveAssemblyReference.cache
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.dll
+C:\SIRGalaxie\GitHubRepostry\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.pdb
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Flurl.pdb
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Flurl.Http.pdb
+C:\GalaxieDev\GalaxieDev-proj.Galaxie.Template3\Galaxie-MVC-Angular\bin\Json.pdb
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.dll.config
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Galaxie-MVC-Angular.pdb
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Antlr3.Runtime.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Dapper.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\EntityFramework.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\EntityFramework.SqlServer.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Flurl.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Flurl.Http.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Json.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Microsoft.Web.Infrastructure.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Newtonsoft.Json.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Net.Http.Formatting.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Helpers.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Http.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Http.WebHost.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Mvc.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Optimization.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Razor.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Webpages.Deployment.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Webpages.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Webpages.Razor.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\WebGrease.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Antlr3.Runtime.pdb
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Dapper.pdb
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Dapper.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\EntityFramework.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\EntityFramework.SqlServer.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Flurl.pdb
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Flurl.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Flurl.Http.pdb
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Flurl.Http.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Json.pdb
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\Newtonsoft.Json.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Optimization.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Razor.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Webpages.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Webpages.Deployment.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Webpages.Razor.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Helpers.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Mvc.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Net.Http.Formatting.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Http.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\bin\System.Web.Http.WebHost.xml
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.csprojResolveAssemblyReference.cache
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.dll
+C:\GalaxieDev\proj.Galaxiedev\Galaxie-MVC-Angular\obj\Debug\Galaxie-MVC-Angular.pdb

@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GalaxieDev2Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="lstFeeType">
+    <Key>
+      <PropertyRef Name="FeeTypeCode" />
+    </Key>
+    <Property Name="FeeTypeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FeeTypeCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FeeTypeDescription1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FeeTypeDescription2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FeeTypeDescription3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblItemCost" Relationship="Self.fk_Fee_Cost" FromRole="lstFeeType" ToRole="tblItemCost" />
+  </EntityType>
+  <EntityType Name="lstSourceCode">
+    <Key>
+      <PropertyRef Name="SourceCode" />
+    </Key>
+    <Property Name="SourceCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SourceCodeDescription1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SourceCodeDescription2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SourceCodeDescription3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Changeble" Type="Boolean" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tblItem">
+    <Key>
+      <PropertyRef Name="ItemID" />
+    </Key>
+    <Property Name="ItemID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ItemUPC" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UPCMandatory" Type="Boolean" Nullable="false" />
+    <Property Name="UPCOrder" Type="Int32" Nullable="false" />
+    <Property Name="ItemSKU" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="SKUMandatory" Type="Boolean" Nullable="false" />
+    <Property Name="SKUOrder" Type="Int32" Nullable="false" />
+    <Property Name="ItemEAN" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="EANMandatory" Type="Boolean" Nullable="false" />
+    <Property Name="EANOrder" Type="Int32" Nullable="false" />
+    <Property Name="ItemISBN" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="ISBNMandatory" Type="Boolean" Nullable="false" />
+    <Property Name="ISBNOrder" Type="Int32" Nullable="false" />
+    <Property Name="ItemSN" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="SNMandatory" Type="Boolean" Nullable="false" />
+    <Property Name="SNOrder" Type="Int32" Nullable="false" />
+    <Property Name="ItemDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SdpCode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="ItemImage" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="ItemWeight" Type="Double" />
+    <Property Name="ItemLength" Type="Double" />
+    <Property Name="ItemDateAdd" Type="DateTime" Precision="3" />
+    <Property Name="ItemDateChg" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="tblItemCost" Relationship="Self.fk_ItemID_Cost" FromRole="tblItem" ToRole="tblItemCost" />
+    <NavigationProperty Name="tblItemDetail" Relationship="Self.fk_ItemID_Detail" FromRole="tblItem" ToRole="tblItemDetail" />
+    <NavigationProperty Name="tblItemPrice" Relationship="Self.fk_ItemID_Price" FromRole="tblItem" ToRole="tblItemPrice" />
+    <NavigationProperty Name="tblItemPriceDetail" Relationship="Self.fk_PriceDetail" FromRole="tblItem" ToRole="tblItemPriceDetail" />
+    <NavigationProperty Name="tblSdp" Relationship="Self.fk_SdpCode" FromRole="tblItem" ToRole="tblSdp" />
+  </EntityType>
+  <EntityType Name="tblItemCost">
+    <Key>
+      <PropertyRef Name="ItemID" />
+      <PropertyRef Name="StoreCode" />
+      <PropertyRef Name="VendorCode" />
+      <PropertyRef Name="VendorFormat" />
+    </Key>
+    <Property Name="ItemCostID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ItemID" Type="Int32" Nullable="false" />
+    <Property Name="StoreCode" Type="Int32" Nullable="false" />
+    <Property Name="CostValue" Type="Double" />
+    <Property Name="CostQty" Type="Double" />
+    <Property Name="VendorCode" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="VendorSKU" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="VendorFormat" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FeesValue" Type="Double" />
+    <Property Name="FeeTypeCode" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="CostStart" Type="DateTime" Precision="3" />
+    <Property Name="CostStop" Type="DateTime" Precision="3" />
+    <Property Name="ItemDateAdd" Type="DateTime" Precision="3" />
+    <Property Name="ItemDateChg" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="lstFeeType" Relationship="Self.fk_Fee_Cost" FromRole="tblItemCost" ToRole="lstFeeType" />
+    <NavigationProperty Name="tblItem" Relationship="Self.fk_ItemID_Cost" FromRole="tblItemCost" ToRole="tblItem" />
+  </EntityType>
+  <EntityType Name="tblItemDetail">
+    <Key>
+      <PropertyRef Name="ItemID" />
+      <PropertyRef Name="StoreCode" />
+    </Key>
+    <Property Name="ItemDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ItemID" Type="Int32" Nullable="false" />
+    <Property Name="StoreCode" Type="Int32" Nullable="false" />
+    <Property Name="TaxGrpCode" Type="Int32" Nullable="false" />
+    <Property Name="BtlCode" Type="Int32" />
+    <Property Name="EnvCode" Type="Int32" />
+    <Property Name="TareCode" Type="Int32" />
+    <Property Name="StatusCode" Type="Int32" />
+    <Property Name="ItemDescription1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ItemDescription2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ItemDescription3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ItemDateAdd" Type="DateTime" Precision="3" />
+    <Property Name="ItemDateChg" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="tblItem" Relationship="Self.fk_ItemID_Detail" FromRole="tblItemDetail" ToRole="tblItem" />
+    <NavigationProperty Name="tblTaxGrp" Relationship="Self.fk_ItemID_Tax" FromRole="tblItemDetail" ToRole="tblTaxGrp" />
+  </EntityType>
+  <EntityType Name="tblItemPrice">
+    <Key>
+      <PropertyRef Name="ItemID" />
+      <PropertyRef Name="StoreCode" />
+    </Key>
+    <Property Name="ItemPriceID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ItemID" Type="Int32" Nullable="false" />
+    <Property Name="StoreCode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="PriceSourceCode" Type="Int32" />
+    <Property Name="PriceValue" Type="Double" />
+    <Property Name="PriceQty" Type="Double" />
+    <Property Name="PriceStart" Type="DateTime" Precision="3" />
+    <Property Name="PriceStop" Type="DateTime" Precision="3" />
+    <Property Name="ItemDateAdd" Type="DateTime" Precision="3" />
+    <Property Name="ItemDateChg" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="tblItem" Relationship="Self.fk_ItemID_Price" FromRole="tblItemPrice" ToRole="tblItem" />
+  </EntityType>
+  <EntityType Name="tblItemPriceDetail">
+    <Key>
+      <PropertyRef Name="ItemID" />
+      <PropertyRef Name="StoreCode" />
+      <PropertyRef Name="PriceStart" />
+      <PropertyRef Name="PriceStop" />
+    </Key>
+    <Property Name="ItemPriceDetailID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ItemID" Type="Int32" Nullable="false" />
+    <Property Name="StoreCode" Type="Int32" Nullable="false" />
+    <Property Name="PriceSourceCode" Type="Int32" Nullable="false" />
+    <Property Name="PriceValue" Type="Double" Nullable="false" />
+    <Property Name="PriceQty" Type="Double" Nullable="false" />
+    <Property Name="PriceStart" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="PriceStop" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ItemDateAdd" Type="DateTime" Precision="3" />
+    <Property Name="ItemDateChg" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="tblItem" Relationship="Self.fk_PriceDetail" FromRole="tblItemPriceDetail" ToRole="tblItem" />
+  </EntityType>
+  <EntityType Name="tblSdp">
+    <Key>
+      <PropertyRef Name="SdpCode" />
+    </Key>
+    <Property Name="SdpID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SdpCode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SdpDescription1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SdpDescription2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SdpDescription3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SdpDptCode" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TaxGrpCode" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tblItem" Relationship="Self.fk_SdpCode" FromRole="tblSdp" ToRole="tblItem" />
+  </EntityType>
+  <EntityType Name="tblTax">
+    <Key>
+      <PropertyRef Name="TaxCode" />
+    </Key>
+    <Property Name="TaxID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TaxCode" Type="Int32" Nullable="false" />
+    <Property Name="TaxDescription1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TaxDescription2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TaxDescription3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TaxValue" Type="Double" Nullable="false" />
+    <Property Name="TaxRoundValue" Type="Double" Nullable="false" />
+    <Property Name="TaxStartValue" Type="Double" Nullable="false" />
+    <Property Name="TaxAtCode" Type="Boolean" />
+    <Property Name="TaxLineFlag" Type="Boolean" />
+    <NavigationProperty Name="tblTaxGrp" Relationship="Self.tblTaxGrpDetail" FromRole="tblTax" ToRole="tblTaxGrp" />
+  </EntityType>
+  <EntityType Name="tblTaxGrp">
+    <Key>
+      <PropertyRef Name="TaxGrpCode" />
+    </Key>
+    <Property Name="TaxGrpID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TaxGrpCode" Type="Int32" Nullable="false" />
+    <Property Name="TaxGrpDescription1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TaxGrpDescription2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TaxGrpDescription3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblItemDetail" Relationship="Self.fk_ItemID_Tax" FromRole="tblTaxGrp" ToRole="tblItemDetail" />
+    <NavigationProperty Name="tblTax" Relationship="Self.tblTaxGrpDetail" FromRole="tblTaxGrp" ToRole="tblTax" />
+  </EntityType>
+  <Association Name="fk_Fee_Cost">
+    <End Role="lstFeeType" Type="Self.lstFeeType" Multiplicity="0..1" />
+    <End Role="tblItemCost" Type="Self.tblItemCost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="lstFeeType">
+        <PropertyRef Name="FeeTypeCode" />
+      </Principal>
+      <Dependent Role="tblItemCost">
+        <PropertyRef Name="FeeTypeCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_ItemID_Cost">
+    <End Role="tblItem" Type="Self.tblItem" Multiplicity="1" />
+    <End Role="tblItemCost" Type="Self.tblItemCost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblItem">
+        <PropertyRef Name="ItemID" />
+      </Principal>
+      <Dependent Role="tblItemCost">
+        <PropertyRef Name="ItemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_ItemID_Detail">
+    <End Role="tblItem" Type="Self.tblItem" Multiplicity="1" />
+    <End Role="tblItemDetail" Type="Self.tblItemDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblItem">
+        <PropertyRef Name="ItemID" />
+      </Principal>
+      <Dependent Role="tblItemDetail">
+        <PropertyRef Name="ItemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_ItemID_Price">
+    <End Role="tblItem" Type="Self.tblItem" Multiplicity="1" />
+    <End Role="tblItemPrice" Type="Self.tblItemPrice" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblItem">
+        <PropertyRef Name="ItemID" />
+      </Principal>
+      <Dependent Role="tblItemPrice">
+        <PropertyRef Name="ItemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_PriceDetail">
+    <End Role="tblItem" Type="Self.tblItem" Multiplicity="1" />
+    <End Role="tblItemPriceDetail" Type="Self.tblItemPriceDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblItem">
+        <PropertyRef Name="ItemID" />
+      </Principal>
+      <Dependent Role="tblItemPriceDetail">
+        <PropertyRef Name="ItemID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_SdpCode">
+    <End Role="tblSdp" Type="Self.tblSdp" Multiplicity="1" />
+    <End Role="tblItem" Type="Self.tblItem" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblSdp">
+        <PropertyRef Name="SdpCode" />
+      </Principal>
+      <Dependent Role="tblItem">
+        <PropertyRef Name="SdpCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_ItemID_Tax">
+    <End Role="tblTaxGrp" Type="Self.tblTaxGrp" Multiplicity="1" />
+    <End Role="tblItemDetail" Type="Self.tblItemDetail" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblTaxGrp">
+        <PropertyRef Name="TaxGrpCode" />
+      </Principal>
+      <Dependent Role="tblItemDetail">
+        <PropertyRef Name="TaxGrpCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="tblTaxGrpDetail">
+    <End Role="tblTax" Type="Self.tblTax" Multiplicity="*" />
+    <End Role="tblTaxGrp" Type="Self.tblTaxGrp" Multiplicity="*" />
+  </Association>
+  <EntityContainer Name="GalaxieDev2Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="lstFeeType" EntityType="Self.lstFeeType" />
+    <EntitySet Name="lstSourceCode" EntityType="Self.lstSourceCode" />
+    <EntitySet Name="tblItem" EntityType="Self.tblItem" />
+    <EntitySet Name="tblItemCost" EntityType="Self.tblItemCost" />
+    <EntitySet Name="tblItemDetail" EntityType="Self.tblItemDetail" />
+    <EntitySet Name="tblItemPrice" EntityType="Self.tblItemPrice" />
+    <EntitySet Name="tblItemPriceDetail" EntityType="Self.tblItemPriceDetail" />
+    <EntitySet Name="tblSdp" EntityType="Self.tblSdp" />
+    <EntitySet Name="tblTax" EntityType="Self.tblTax" />
+    <EntitySet Name="tblTaxGrp" EntityType="Self.tblTaxGrp" />
+    <AssociationSet Name="fk_Fee_Cost" Association="Self.fk_Fee_Cost">
+      <End Role="lstFeeType" EntitySet="lstFeeType" />
+      <End Role="tblItemCost" EntitySet="tblItemCost" />
+    </AssociationSet>
+    <AssociationSet Name="fk_ItemID_Cost" Association="Self.fk_ItemID_Cost">
+      <End Role="tblItem" EntitySet="tblItem" />
+      <End Role="tblItemCost" EntitySet="tblItemCost" />
+    </AssociationSet>
+    <AssociationSet Name="fk_ItemID_Detail" Association="Self.fk_ItemID_Detail">
+      <End Role="tblItem" EntitySet="tblItem" />
+      <End Role="tblItemDetail" EntitySet="tblItemDetail" />
+    </AssociationSet>
+    <AssociationSet Name="fk_ItemID_Price" Association="Self.fk_ItemID_Price">
+      <End Role="tblItem" EntitySet="tblItem" />
+      <End Role="tblItemPrice" EntitySet="tblItemPrice" />
+    </AssociationSet>
+    <AssociationSet Name="fk_PriceDetail" Association="Self.fk_PriceDetail">
+      <End Role="tblItem" EntitySet="tblItem" />
+      <End Role="tblItemPriceDetail" EntitySet="tblItemPriceDetail" />
+    </AssociationSet>
+    <AssociationSet Name="fk_SdpCode" Association="Self.fk_SdpCode">
+      <End Role="tblSdp" EntitySet="tblSdp" />
+      <End Role="tblItem" EntitySet="tblItem" />
+    </AssociationSet>
+    <AssociationSet Name="fk_ItemID_Tax" Association="Self.fk_ItemID_Tax">
+      <End Role="tblTaxGrp" EntitySet="tblTaxGrp" />
+      <End Role="tblItemDetail" EntitySet="tblItemDetail" />
+    </AssociationSet>
+    <AssociationSet Name="tblTaxGrpDetail" Association="Self.tblTaxGrpDetail">
+      <End Role="tblTax" EntitySet="tblTax" />
+      <End Role="tblTaxGrp" EntitySet="tblTaxGrp" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

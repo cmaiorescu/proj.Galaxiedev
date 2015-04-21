@@ -1,0 +1,33 @@
+﻿<div>
+  <h1>Items List</h1>
+
+  <div class="well" style="background-image:none">
+
+    <div class="input-group">
+      <input type="text"
+             name="searchText"
+             ng-model="data.filterOptions.filterText"
+             class="form-control"
+             placeholder="Search by ItemUPC, Description" />
+      <span class="input-group-addon glyphicon glyphicon-search"
+            style="cursor:pointer"></span>
+    </div>
+     <br />   
+
+      <div class="gridStyle" ng-grid="gridOptions"></div>
+    
+    </div>
+</div>
+
+<div class="item-details" data-ng-show="data.selected">
+    <div class="well well-large">
+        <h3>Item Details</h3>
+        <form>
+            <label for="UPC">UPC</label>
+            <input type="text" id="UPC" name="UPC" data-ng-model="data.selected.ItemUPC" />
+            <label for="Description">Last Name</label>
+            <input type="text" id="Description" name="Description" data-ng-model="data.selected.ItemDescription" />
+            <input type="button" id="btnSubmit" class="btn" data-ng-click="updateItem(data.selected)" value="UPDATE" />
+        </form>
+    </div>
+</div>

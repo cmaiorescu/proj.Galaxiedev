@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="701e5c1e38c14b60a49340aa6043a4fd" Name="Diagram1">
+        <EntityTypeShape EntityType="GalaxieDev2Model.lstFeeType" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GalaxieDev2Model.lstSourceCode" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GalaxieDev2Model.tblItem" Width="1.5" PointX="3" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GalaxieDev2Model.tblItemCost" Width="1.5" PointX="5.25" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GalaxieDev2Model.tblItemDetail" Width="1.5" PointX="8.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="GalaxieDev2Model.tblItemPrice" Width="1.5" PointX="5.25" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GalaxieDev2Model.tblItemPriceDetail" Width="1.5" PointX="5.25" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GalaxieDev2Model.tblSdp" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GalaxieDev2Model.tblTax" Width="1.5" PointX="3.75" PointY="24.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GalaxieDev2Model.tblTaxGrp" Width="1.5" PointX="6" PointY="24.75" IsExpanded="true" />
+        <AssociationConnector Association="GalaxieDev2Model.fk_Fee_Cost" ManuallyRouted="false" />
+        <AssociationConnector Association="GalaxieDev2Model.fk_ItemID_Cost" ManuallyRouted="false" />
+        <AssociationConnector Association="GalaxieDev2Model.fk_ItemID_Detail" ManuallyRouted="false" />
+        <AssociationConnector Association="GalaxieDev2Model.fk_ItemID_Price" ManuallyRouted="false" />
+        <AssociationConnector Association="GalaxieDev2Model.fk_PriceDetail" ManuallyRouted="false" />
+        <AssociationConnector Association="GalaxieDev2Model.fk_SdpCode" ManuallyRouted="false" />
+        <AssociationConnector Association="GalaxieDev2Model.fk_ItemID_Tax" ManuallyRouted="false" />
+        <AssociationConnector Association="GalaxieDev2Model.tblTaxGrpDetail" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

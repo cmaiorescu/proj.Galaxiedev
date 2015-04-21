@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GalaxieDev2ModelStoreContainer" CdmEntityContainer="GalaxieDev2Entities">
+    <EntitySetMapping Name="lstFeeType">
+      <EntityTypeMapping TypeName="GalaxieDev2Model.lstFeeType">
+        <MappingFragment StoreEntitySet="lstFeeType">
+          <ScalarProperty Name="FeeTypeID" ColumnName="FeeTypeID" />
+          <ScalarProperty Name="FeeTypeCode" ColumnName="FeeTypeCode" />
+          <ScalarProperty Name="FeeTypeDescription1" ColumnName="FeeTypeDescription1" />
+          <ScalarProperty Name="FeeTypeDescription2" ColumnName="FeeTypeDescription2" />
+          <ScalarProperty Name="FeeTypeDescription3" ColumnName="FeeTypeDescription3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="lstSourceCode">
+      <EntityTypeMapping TypeName="GalaxieDev2Model.lstSourceCode">
+        <MappingFragment StoreEntitySet="lstSourceCode">
+          <ScalarProperty Name="SourceCode" ColumnName="SourceCode" />
+          <ScalarProperty Name="SourceCodeDescription1" ColumnName="SourceCodeDescription1" />
+          <ScalarProperty Name="SourceCodeDescription2" ColumnName="SourceCodeDescription2" />
+          <ScalarProperty Name="SourceCodeDescription3" ColumnName="SourceCodeDescription3" />
+          <ScalarProperty Name="Changeble" ColumnName="Changeble" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblItem">
+      <EntityTypeMapping TypeName="GalaxieDev2Model.tblItem">
+        <MappingFragment StoreEntitySet="tblItem">
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="ItemUPC" ColumnName="ItemUPC" />
+          <ScalarProperty Name="UPCMandatory" ColumnName="UPCMandatory" />
+          <ScalarProperty Name="UPCOrder" ColumnName="UPCOrder" />
+          <ScalarProperty Name="ItemSKU" ColumnName="ItemSKU" />
+          <ScalarProperty Name="SKUMandatory" ColumnName="SKUMandatory" />
+          <ScalarProperty Name="SKUOrder" ColumnName="SKUOrder" />
+          <ScalarProperty Name="ItemEAN" ColumnName="ItemEAN" />
+          <ScalarProperty Name="EANMandatory" ColumnName="EANMandatory" />
+          <ScalarProperty Name="EANOrder" ColumnName="EANOrder" />
+          <ScalarProperty Name="ItemISBN" ColumnName="ItemISBN" />
+          <ScalarProperty Name="ISBNMandatory" ColumnName="ISBNMandatory" />
+          <ScalarProperty Name="ISBNOrder" ColumnName="ISBNOrder" />
+          <ScalarProperty Name="ItemSN" ColumnName="ItemSN" />
+          <ScalarProperty Name="SNMandatory" ColumnName="SNMandatory" />
+          <ScalarProperty Name="SNOrder" ColumnName="SNOrder" />
+          <ScalarProperty Name="ItemDescription" ColumnName="ItemDescription" />
+          <ScalarProperty Name="SdpCode" ColumnName="SdpCode" />
+          <ScalarProperty Name="ItemImage" ColumnName="ItemImage" />
+          <ScalarProperty Name="ItemWeight" ColumnName="ItemWeight" />
+          <ScalarProperty Name="ItemLength" ColumnName="ItemLength" />
+          <ScalarProperty Name="ItemDateAdd" ColumnName="ItemDateAdd" />
+          <ScalarProperty Name="ItemDateChg" ColumnName="ItemDateChg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblItemCost">
+      <EntityTypeMapping TypeName="GalaxieDev2Model.tblItemCost">
+        <MappingFragment StoreEntitySet="tblItemCost">
+          <ScalarProperty Name="ItemCostID" ColumnName="ItemCostID" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="StoreCode" ColumnName="StoreCode" />
+          <ScalarProperty Name="CostValue" ColumnName="CostValue" />
+          <ScalarProperty Name="CostQty" ColumnName="CostQty" />
+          <ScalarProperty Name="VendorCode" ColumnName="VendorCode" />
+          <ScalarProperty Name="VendorSKU" ColumnName="VendorSKU" />
+          <ScalarProperty Name="VendorFormat" ColumnName="VendorFormat" />
+          <ScalarProperty Name="FeesValue" ColumnName="FeesValue" />
+          <ScalarProperty Name="FeeTypeCode" ColumnName="FeeTypeCode" />
+          <ScalarProperty Name="CostStart" ColumnName="CostStart" />
+          <ScalarProperty Name="CostStop" ColumnName="CostStop" />
+          <ScalarProperty Name="ItemDateAdd" ColumnName="ItemDateAdd" />
+          <ScalarProperty Name="ItemDateChg" ColumnName="ItemDateChg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblItemDetail">
+      <EntityTypeMapping TypeName="GalaxieDev2Model.tblItemDetail">
+        <MappingFragment StoreEntitySet="tblItemDetail">
+          <ScalarProperty Name="ItemDetailID" ColumnName="ItemDetailID" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="StoreCode" ColumnName="StoreCode" />
+          <ScalarProperty Name="TaxGrpCode" ColumnName="TaxGrpCode" />
+          <ScalarProperty Name="BtlCode" ColumnName="BtlCode" />
+          <ScalarProperty Name="EnvCode" ColumnName="EnvCode" />
+          <ScalarProperty Name="TareCode" ColumnName="TareCode" />
+          <ScalarProperty Name="StatusCode" ColumnName="StatusCode" />
+          <ScalarProperty Name="ItemDescription1" ColumnName="ItemDescription1" />
+          <ScalarProperty Name="ItemDescription2" ColumnName="ItemDescription2" />
+          <ScalarProperty Name="ItemDescription3" ColumnName="ItemDescription3" />
+          <ScalarProperty Name="ItemDateAdd" ColumnName="ItemDateAdd" />
+          <ScalarProperty Name="ItemDateChg" ColumnName="ItemDateChg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblItemPrice">
+      <EntityTypeMapping TypeName="GalaxieDev2Model.tblItemPrice">
+        <MappingFragment StoreEntitySet="tblItemPrice">
+          <ScalarProperty Name="ItemPriceID" ColumnName="ItemPriceID" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="StoreCode" ColumnName="StoreCode" />
+          <ScalarProperty Name="PriceSourceCode" ColumnName="PriceSourceCode" />
+          <ScalarProperty Name="PriceValue" ColumnName="PriceValue" />
+          <ScalarProperty Name="PriceQty" ColumnName="PriceQty" />
+          <ScalarProperty Name="PriceStart" ColumnName="PriceStart" />
+          <ScalarProperty Name="PriceStop" ColumnName="PriceStop" />
+          <ScalarProperty Name="ItemDateAdd" ColumnName="ItemDateAdd" />
+          <ScalarProperty Name="ItemDateChg" ColumnName="ItemDateChg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblItemPriceDetail">
+      <EntityTypeMapping TypeName="GalaxieDev2Model.tblItemPriceDetail">
+        <MappingFragment StoreEntitySet="tblItemPriceDetail">
+          <ScalarProperty Name="ItemPriceDetailID" ColumnName="ItemPriceDetailID" />
+          <ScalarProperty Name="ItemID" ColumnName="ItemID" />
+          <ScalarProperty Name="StoreCode" ColumnName="StoreCode" />
+          <ScalarProperty Name="PriceSourceCode" ColumnName="PriceSourceCode" />
+          <ScalarProperty Name="PriceValue" ColumnName="PriceValue" />
+          <ScalarProperty Name="PriceQty" ColumnName="PriceQty" />
+          <ScalarProperty Name="PriceStart" ColumnName="PriceStart" />
+          <ScalarProperty Name="PriceStop" ColumnName="PriceStop" />
+          <ScalarProperty Name="ItemDateAdd" ColumnName="ItemDateAdd" />
+          <ScalarProperty Name="ItemDateChg" ColumnName="ItemDateChg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSdp">
+      <EntityTypeMapping TypeName="GalaxieDev2Model.tblSdp">
+        <MappingFragment StoreEntitySet="tblSdp">
+          <ScalarProperty Name="SdpID" ColumnName="SdpID" />
+          <ScalarProperty Name="SdpCode" ColumnName="SdpCode" />
+          <ScalarProperty Name="SdpDescription1" ColumnName="SdpDescription1" />
+          <ScalarProperty Name="SdpDescription2" ColumnName="SdpDescription2" />
+          <ScalarProperty Name="SdpDescription3" ColumnName="SdpDescription3" />
+          <ScalarProperty Name="SdpDptCode" ColumnName="SdpDptCode" />
+          <ScalarProperty Name="TaxGrpCode" ColumnName="TaxGrpCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTax">
+      <EntityTypeMapping TypeName="GalaxieDev2Model.tblTax">
+        <MappingFragment StoreEntitySet="tblTax">
+          <ScalarProperty Name="TaxID" ColumnName="TaxID" />
+          <ScalarProperty Name="TaxCode" ColumnName="TaxCode" />
+          <ScalarProperty Name="TaxDescription1" ColumnName="TaxDescription1" />
+          <ScalarProperty Name="TaxDescription2" ColumnName="TaxDescription2" />
+          <ScalarProperty Name="TaxDescription3" ColumnName="TaxDescription3" />
+          <ScalarProperty Name="TaxValue" ColumnName="TaxValue" />
+          <ScalarProperty Name="TaxRoundValue" ColumnName="TaxRoundValue" />
+          <ScalarProperty Name="TaxStartValue" ColumnName="TaxStartValue" />
+          <ScalarProperty Name="TaxAtCode" ColumnName="TaxAtCode" />
+          <ScalarProperty Name="TaxLineFlag" ColumnName="TaxLineFlag" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTaxGrp">
+      <EntityTypeMapping TypeName="GalaxieDev2Model.tblTaxGrp">
+        <MappingFragment StoreEntitySet="tblTaxGrp">
+          <ScalarProperty Name="TaxGrpID" ColumnName="TaxGrpID" />
+          <ScalarProperty Name="TaxGrpCode" ColumnName="TaxGrpCode" />
+          <ScalarProperty Name="TaxGrpDescription1" ColumnName="TaxGrpDescription1" />
+          <ScalarProperty Name="TaxGrpDescription2" ColumnName="TaxGrpDescription2" />
+          <ScalarProperty Name="TaxGrpDescription3" ColumnName="TaxGrpDescription3" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="tblTaxGrpDetail" TypeName="GalaxieDev2Model.tblTaxGrpDetail" StoreEntitySet="tblTaxGrpDetail">
+      <EndProperty Name="tblTax">
+        <ScalarProperty Name="TaxCode" ColumnName="TaxCode" />
+      </EndProperty>
+      <EndProperty Name="tblTaxGrp">
+        <ScalarProperty Name="TaxGrpCode" ColumnName="TaxGrpCode" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,203 @@
+﻿@model Galaxie_MVC_Angular.tblItem
+
+@{
+    Layout = null;
+}
+
+<h2>Login</h2>
+
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <h4>tblItem</h4>
+        <hr />
+        @Html.ValidationSummary(true)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ItemUPC, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ItemUPC)
+                @Html.ValidationMessageFor(model => model.ItemUPC)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UPCMandatory, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UPCMandatory)
+                @Html.ValidationMessageFor(model => model.UPCMandatory)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.UPCOrder, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.UPCOrder)
+                @Html.ValidationMessageFor(model => model.UPCOrder)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ItemSKU, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ItemSKU)
+                @Html.ValidationMessageFor(model => model.ItemSKU)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SKUMandatory, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SKUMandatory)
+                @Html.ValidationMessageFor(model => model.SKUMandatory)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SKUOrder, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SKUOrder)
+                @Html.ValidationMessageFor(model => model.SKUOrder)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ItemEAN, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ItemEAN)
+                @Html.ValidationMessageFor(model => model.ItemEAN)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EANMandatory, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EANMandatory)
+                @Html.ValidationMessageFor(model => model.EANMandatory)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.EANOrder, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.EANOrder)
+                @Html.ValidationMessageFor(model => model.EANOrder)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ItemISBN, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ItemISBN)
+                @Html.ValidationMessageFor(model => model.ItemISBN)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ISBNMandatory, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ISBNMandatory)
+                @Html.ValidationMessageFor(model => model.ISBNMandatory)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ISBNOrder, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ISBNOrder)
+                @Html.ValidationMessageFor(model => model.ISBNOrder)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ItemSN, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ItemSN)
+                @Html.ValidationMessageFor(model => model.ItemSN)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SNMandatory, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SNMandatory)
+                @Html.ValidationMessageFor(model => model.SNMandatory)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.SNOrder, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.SNOrder)
+                @Html.ValidationMessageFor(model => model.SNOrder)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ItemDescription, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ItemDescription)
+                @Html.ValidationMessageFor(model => model.ItemDescription)
+            </div>
+        </div>
+
+
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ItemImage, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ItemImage)
+                @Html.ValidationMessageFor(model => model.ItemImage)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ItemWeight, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ItemWeight)
+                @Html.ValidationMessageFor(model => model.ItemWeight)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ItemLength, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ItemLength)
+                @Html.ValidationMessageFor(model => model.ItemLength)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ItemDateAdd, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ItemDateAdd)
+                @Html.ValidationMessageFor(model => model.ItemDateAdd)
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.ItemDateChg, new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.ItemDateChg)
+                @Html.ValidationMessageFor(model => model.ItemDateChg)
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}
