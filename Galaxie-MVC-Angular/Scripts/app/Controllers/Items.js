@@ -27,6 +27,12 @@
         }
     }, true);
 
+    $scope.$watch('data.selected', function () {
+        $log.log("page selected changed ");
+        $scope.data.selected = angular.copy($scope.data.selected);
+        $log.log("page selected changed " + $scope.data.selected.ItemUPC);
+    }, true);
+
 
 
     $scope.gridOptions = {
